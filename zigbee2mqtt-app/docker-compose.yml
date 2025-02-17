@@ -11,9 +11,8 @@ services:
             - 8089:8080
         environment:
             - APP_HOST=zigbee2mqtt_app_1
-            - APP_PORT=3000
-        devices:
-            - /dev/ttyUSB0:/dev/ttyUSB0
+            - APP_PORT=8089
+
 
 
 
