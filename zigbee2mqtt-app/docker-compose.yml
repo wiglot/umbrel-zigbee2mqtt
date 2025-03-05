@@ -13,6 +13,8 @@ services:
             - APP_HOST=zigbee2mqtt_app_1
             - APP_PORT=8089
 
-
+        devices:
+            # Make sure this matched your adapter location
+            - /dev/serial/by-id/usb-Itead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_V2_621b6ca1d549ef11b850cd8cff00cc63-if00-port0:/dev/ttyUSB0
 
 
