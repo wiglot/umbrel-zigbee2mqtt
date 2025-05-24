@@ -1,5 +1,5 @@
 mqtt:
-  server: mqtt://umbrel.local:1883
+  server: mqtt://192.168.0.98:1883
 serial:
   adapter: ember
   port: /dev/ttyUSB0
